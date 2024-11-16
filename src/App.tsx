@@ -193,7 +193,7 @@ function App() {
   return (
     <main className="flex flex-col justify-center items-center m-5 p-5 gap-5 ">
       <LanguageSelector />
-      <h1>Anime to Watch</h1>
+      <h1>Anime Recommendation App</h1>
       { !animeRecommendator.hasRecommendations && !animeRecommendator.loading && (
         <>
           <div className="w-full md:w-2/3 lg:w-1/2 m-5">
